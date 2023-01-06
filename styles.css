@@ -2,4 +2,60 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(185, 185, 185)
+}
+
+body {
+    background-color: rgb(22, 23, 25);
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+}
+
+.container, .logo {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.picture {
+    background-image: url(./images/picture.jpg);
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 40vw;
+}
+
+.logo {
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: relative;
+    top: 20vh;
+    gap: 1vw;
+    padding: 15px 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.odin {
+    height: 10vh;
+}
+
+.mortimer {
+    color: white;
+}
+
+.right-side {
+    width: 60vw;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+}
+
+.text {
+    padding-left: 3vw;
+    font-weight: 500;
+    width: 90%;
 }
